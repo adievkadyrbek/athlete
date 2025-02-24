@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  DATABASE_URL: "postgresql://postgres:gCg3SaAK@athlete.clzijssvbkbt.us-east-1.rds.amazonaws.com:5432/activities"
+  REDIS_URL: "redis://redis-service:6379/0"
